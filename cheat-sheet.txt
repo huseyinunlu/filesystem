@@ -1,0 +1,28 @@
+
+Commands
+
+Directory mode{
+
+exit (exit from program)
+create D name (for folder)
+create U name (for user data file)
+open I name (open a user data file on input mode)
+open O name (open a user data file on output mode)
+open U name (open a user data file on update mode)
+ls (prints all child directories)
+cd dirname (change directory)
+delete name (deletes file or folder)
+tree (prints directory hierarchy)
+
+}
+
+User Data File mode{
+
+close (close the current opened file)
+write n 'data' (write n bytes of data)
+seek -1 n (n bytes forward from beginning of the file)
+seek 0 n (n bytes forward or back from current position of the file)
+seek +1 n (n bytes back from end of the file)
+read n (reads n bytes from current position)
+
+}
